@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PdfConverter", "PdfConverter\PdfConverter.csproj", "{252E0A0D-8960-4E23-A56E-671036640EE6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F4727A33-F9C0-45B4-9329-EFB47B8DFE03} = {F4727A33-F9C0-45B4-9329-EFB47B8DFE03}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileInputConsumerBrowseBox", "FileInputConsumerBrowseBox\FileInputConsumerBrowseBox.csproj", "{F4727A33-F9C0-45B4-9329-EFB47B8DFE03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rewsources", "Rewsources", "{204F35A1-1FF8-40DA-A795-5F7A51B75C18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Icons", "Icons", "{760797A3-75AD-41EA-BEA6-6CF439AC289F}"
+	ProjectSection(SolutionItems) = preProject
+		FileInputConsumerBrowseBox\open.png = FileInputConsumerBrowseBox\open.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{252E0A0D-8960-4E23-A56E-671036640EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{252E0A0D-8960-4E23-A56E-671036640EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{252E0A0D-8960-4E23-A56E-671036640EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{252E0A0D-8960-4E23-A56E-671036640EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4727A33-F9C0-45B4-9329-EFB47B8DFE03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4727A33-F9C0-45B4-9329-EFB47B8DFE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4727A33-F9C0-45B4-9329-EFB47B8DFE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4727A33-F9C0-45B4-9329-EFB47B8DFE03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{760797A3-75AD-41EA-BEA6-6CF439AC289F} = {204F35A1-1FF8-40DA-A795-5F7A51B75C18}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0909A7DE-CCF4-46C6-B7C7-BA792D12CBAC}
+	EndGlobalSection
+EndGlobal

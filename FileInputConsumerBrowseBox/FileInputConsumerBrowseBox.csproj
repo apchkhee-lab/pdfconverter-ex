@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net461</TargetFramework>
+    
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="open.png" />
+    <None Remove="Resources\Icons\open.png" />
+    <None Remove="Resources\Icons\png-klev-club-eyyf-p-otkritie-failov-png-4.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="open.png" />
+    <Resource Include="Resources\Icons\open.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

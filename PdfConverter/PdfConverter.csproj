@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net461</TargetFramework>
+   
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+ 
+
+  <ItemGroup>
+    <PackageReference Include="GdPicture" Version="14.1.0.189" />
+    <PackageReference Include="System.ValueTuple" Version="4.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FileInputConsumerBrowseBox\FileInputConsumerBrowseBox.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Data\Roboto-Regular.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\stamp.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

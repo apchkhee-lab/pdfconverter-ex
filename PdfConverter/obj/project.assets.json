@@ -1,0 +1,213 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "GdPicture/14.1.0.189": {
+        "type": "package",
+        "compile": {
+          "lib/net45/GdPicture.NET.14.dll": {}
+        },
+        "runtime": {
+          "lib/net45/GdPicture.NET.14.dll": {}
+        },
+        "build": {
+          "build/GdPicture.targets": {}
+        }
+      },
+      "System.ValueTuple/4.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "build": {
+          "buildTransitive/net461/System.ValueTuple.targets": {}
+        }
+      },
+      "FileInputConsumerBrowseBox/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "compile": {
+          "bin/placeholder/FileInputConsumerBrowseBox.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileInputConsumerBrowseBox.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win7-x86": {
+      "GdPicture/14.1.0.189": {
+        "type": "package",
+        "compile": {
+          "lib/net45/GdPicture.NET.14.dll": {}
+        },
+        "runtime": {
+          "lib/net45/GdPicture.NET.14.dll": {}
+        },
+        "build": {
+          "build/GdPicture.targets": {}
+        }
+      },
+      "System.ValueTuple/4.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "build": {
+          "buildTransitive/net461/System.ValueTuple.targets": {}
+        }
+      },
+      "FileInputConsumerBrowseBox/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "compile": {
+          "bin/placeholder/FileInputConsumerBrowseBox.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileInputConsumerBrowseBox.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GdPicture/14.1.0.189": {
+      "sha512": "g4ETW87glgDnoqWjHnELXE5rfsZ25E8IEmQQz81jTxWPmVYv8GURRBMH57EtggcZv1fKTklZ53ly0ng+c3HAKA==",
+      "type": "package",
+      "path": "gdpicture/14.1.0.189",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/GdPicture.targets",
+        "build/native/win-x64/GdPicture.NET.14.Imaging.ML.64.dll",
+        "build/native/win-x64/GdPicture.NET.14.Imaging.Rendering.Skia.64.dll",
+        "build/native/win-x64/GdPicture.NET.14.barcode.1d.reader.64.dll",
+        "build/native/win-x64/GdPicture.NET.14.barcode.2d.reader.64.dll",
+        "build/native/win-x64/GdPicture.NET.14.filters.64.dll",
+        "build/native/win-x64/GdPicture.NET.14.image.gdimgplug.64.dll",
+        "build/native/win-x64/GdPicture.NET.14.machine.vision.64.dll",
+        "build/native/win-x64/GdPicture.NET.14.twain.client.64.dll",
+        "build/native/win-x86/GdPicture.NET.14.Imaging.ML.dll",
+        "build/native/win-x86/GdPicture.NET.14.Imaging.Rendering.Skia.dll",
+        "build/native/win-x86/GdPicture.NET.14.barcode.1d.reader.dll",
+        "build/native/win-x86/GdPicture.NET.14.barcode.2d.reader.dll",
+        "build/native/win-x86/GdPicture.NET.14.filters.dll",
+        "build/native/win-x86/GdPicture.NET.14.image.gdimgplug.dll",
+        "build/native/win-x86/GdPicture.NET.14.machine.vision.dll",
+        "build/native/win-x86/GdPicture.NET.14.twain.client.dll",
+        "gdpicture.14.1.0.189.nupkg.sha512",
+        "gdpicture.nuspec",
+        "images/icon.png",
+        "lib/net45/GdPicture.NET.14.dll",
+        "lib/net45/GdPicture.NET.14.xml",
+        "lib/netcoreapp3.1/GdPicture.NET.14.Core.dll",
+        "lib/netcoreapp3.1/GdPicture.NET.14.Core.xml",
+        "licenses/LICENSE.md",
+        "tools/Init.ps1",
+        "tools/licenseManager.exe"
+      ]
+    },
+    "System.ValueTuple/4.6.1": {
+      "sha512": "+RJT4qaekpZ7DDLhf+LTjq+E48jieKiY9ulJ+BoxKmZblIJfIJT8Ufcaa/clQqnYvWs8jugfGSMu8ylS0caG0w==",
+      "type": "package",
+      "path": "system.valuetuple/4.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "build/net471/System.ValueTuple.targets",
+        "buildTransitive/net461/System.ValueTuple.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net471/System.ValueTuple.targets",
+        "lib/net462/System.ValueTuple.dll",
+        "lib/net462/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/net471/_._",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard2.0/_._",
+        "system.valuetuple.4.6.1.nupkg.sha512",
+        "system.valuetuple.nuspec"
+      ]
+    },
+    "FileInputConsumerBrowseBox/1.0.0": {
+      "type": "project",
+      "path": "../FileInputConsumerBrowseBox/FileInputConsumerBrowseBox.csproj",
+      "msbuildProject": "../FileInputConsumerBrowseBox/FileInputConsumerBrowseBox.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "FileInputConsumerBrowseBox >= 1.0.0",
+      "GdPicture >= 14.1.0.189",
+      "System.ValueTuple >= 4.6.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\gamer\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\gamer\\source\\repos\\PdfConverter\\PdfConverter\\PdfConverter.csproj",
+      "projectName": "PdfConverter",
+      "projectPath": "C:\\Users\\gamer\\source\\repos\\PdfConverter\\PdfConverter\\PdfConverter.csproj",
+      "packagesPath": "C:\\Users\\gamer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gamer\\source\\repos\\PdfConverter\\PdfConverter\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "targetAlias": "net461",
+          "projectReferences": {
+            "C:\\Users\\gamer\\source\\repos\\PdfConverter\\FileInputConsumerBrowseBox\\FileInputConsumerBrowseBox.csproj": {
+              "projectPath": "C:\\Users\\gamer\\source\\repos\\PdfConverter\\FileInputConsumerBrowseBox\\FileInputConsumerBrowseBox.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "targetAlias": "net461",
+        "dependencies": {
+          "GdPicture": {
+            "target": "Package",
+            "version": "[14.1.0.189, )"
+          },
+          "System.ValueTuple": {
+            "target": "Package",
+            "version": "[4.6.1, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}

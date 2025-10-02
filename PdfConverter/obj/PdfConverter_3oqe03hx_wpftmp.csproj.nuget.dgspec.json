@@ -1,0 +1,106 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\gamer\\source\\repos\\PdfConverter\\PdfConverter\\PdfConverter.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\gamer\\source\\repos\\PdfConverter\\FileInputConsumerBrowseBox\\FileInputConsumerBrowseBox.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gamer\\source\\repos\\PdfConverter\\FileInputConsumerBrowseBox\\FileInputConsumerBrowseBox.csproj",
+        "projectName": "FileInputConsumerBrowseBox",
+        "projectPath": "C:\\Users\\gamer\\source\\repos\\PdfConverter\\FileInputConsumerBrowseBox\\FileInputConsumerBrowseBox.csproj",
+        "packagesPath": "C:\\Users\\gamer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gamer\\source\\repos\\PdfConverter\\FileInputConsumerBrowseBox\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "targetAlias": "net461",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "targetAlias": "net461",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\gamer\\source\\repos\\PdfConverter\\PdfConverter\\PdfConverter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gamer\\source\\repos\\PdfConverter\\PdfConverter\\PdfConverter.csproj",
+        "projectName": "PdfConverter",
+        "projectPath": "C:\\Users\\gamer\\source\\repos\\PdfConverter\\PdfConverter\\PdfConverter.csproj",
+        "packagesPath": "C:\\Users\\gamer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gamer\\source\\repos\\PdfConverter\\PdfConverter\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "targetAlias": "net461",
+            "projectReferences": {
+              "C:\\Users\\gamer\\source\\repos\\PdfConverter\\FileInputConsumerBrowseBox\\FileInputConsumerBrowseBox.csproj": {
+                "projectPath": "C:\\Users\\gamer\\source\\repos\\PdfConverter\\FileInputConsumerBrowseBox\\FileInputConsumerBrowseBox.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "targetAlias": "net461",
+          "dependencies": {
+            "GdPicture": {
+              "target": "Package",
+              "version": "[14.1.0.189, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
